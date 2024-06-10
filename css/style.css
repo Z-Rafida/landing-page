@@ -1,0 +1,160 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+#header_bg{
+    background-image: linear-gradient(rgba(58, 57, 57, 0.5), rgba(104, 103, 103, 0.5)),url("../images/leonard-cotte-R5scocnOOdM-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    padding: 2rem 7rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#logo{
+    text-decoration: none;
+    color: white;
+    font-family: monospace;
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+#navlinks{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#navlinks a:hover {
+    color: rgb(230, 67, 67);
+}
+
+#ul_list{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.nav-item{
+    text-decoration: none;
+    color: white;
+}
+
+.btn{
+    background-color: transparent;
+    padding: 4px 17px;
+    border-radius: 2.5rem;
+    border: 2px solid white;
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+}
+.header-text{
+    color: white;
+    font-size: 30px;
+    margin-top: 10rem;
+}
+
+.about-section{
+    display: flex;
+    margin: 5rem 6rem;
+}
+
+.images{
+    display: flex;
+    width: 50%;
+    gap: 1.5rem;
+    margin: 5rem 5rem;
+}
+
+.about-text{
+    width: 50%;
+    font-size: 1rem;
+}
+
+.images img{
+    width: 60%;
+    height: 100%;
+}
+
+.about-text h5{
+    color: rgb(194, 8, 8);
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.about-text h3{
+    font-size: 45px;
+    margin-top: 1rem;
+}
+
+.about-btn{
+    background-color: rgb(235,123,32);
+    padding: 4px 17px;
+    border-radius: 5rem;
+    border: 5ch;
+    font-size: medium;
+    margin-top: 2rem;
+}
+
+.about-btn a {
+    text-decoration: none;
+    color: white;
+}
+.about-btn a:hover {
+    color: rgb(247,167,102);
+}
+
+.cruise{
+    margin-top: 2rem;
+}
+
+.serve-section{
+    margin: 5rem 6rem;
+}
+
+.serve-image{
+    display: flex;
+    gap: 1rem;
+}
+
+.imageII{
+    width: 50%;
+    height: 30%;
+
+}
+.imageII img{
+    width: 100%;
+}
+.serve-text{
+    padding-bottom: 2rem;
+    width: 50%;
+    padding-top: 4rem;
+}
+
+.serve-text h5{
+    color: rgb(194, 8, 8);
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.serve-text h3{
+    font-size: 45px;
+    margin-top: 1rem;
+}
+
+.imageII a{
+    text-decoration: none;
+    color: black;
+}
+
+.serve-btn{
+    text-align: center;
+    margin-top: 1.5rem;
+}
